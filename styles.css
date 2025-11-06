@@ -1,0 +1,47 @@
+.seciones {
+
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: solid 5px black;
+    height: 30vh;
+    padding: 20px;
+    gap: 30px;
+
+}
+.seccion1 {
+
+    background-color: rgb(25, 203, 31);
+    border: solid 5px black;
+    text-align: center;
+    height: 150px;
+    margin:5px;
+
+}
+.seccion2 {
+
+    background-color: rgb(219, 198, 13);
+    border: solid 5px black;
+    text-align: center;
+    height: 150px;
+    margin:5px;
+
+}
+.seccion3 {
+
+    background-color: rgb(8, 72, 146);
+    border: solid 5px black;
+    text-align: center;
+    height: 150px;
+    margin:5px;
+
+}
+.seccion4 {
+
+    background-color: rgb(169, 14, 14);
+    border: solid 5px black;
+    text-align: center;
+    height: 150px;
+    margin:5px;
+
+}
