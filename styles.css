@@ -45,3 +45,17 @@
     margin:5px;
 
 }
+.boton {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+button{
+    background-color: rgb(90, 102, 87);
+
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
