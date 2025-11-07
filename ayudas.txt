@@ -1,0 +1,23 @@
+flexbox:
+.menu {
+  display: flex; /* Activa flexbox */
+  justify-content: space-around; /* Distribuye el espacio */
+  align-items: center; /* Centra verticalmente */
+  background-color: #ddd;
+  padding: 10px;
+}
+grid:
+
+.grid-container {
+  display: grid; /* Activa grid */
+  grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
+  gap: 10px; /* Espacio entre los elementos */
+}
+
+.item {
+  background-color: lightseagreen;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+}
