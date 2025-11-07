@@ -14,10 +14,62 @@ grid:
   gap: 10px; /* Espacio entre los elementos */
 }
 
+
+
 .item {
   background-color: lightseagreen;
   color: white;
   text-align: center;
   padding: 20px;
   border-radius: 8px;
+}
+
+
+Posicionamiento de los grids
+.grid {
+    display: grid;
+    border: solid 10px black;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2, 1fr;
+
+}
+
+.contenedor1 {
+
+    grid-column: 3 / 3;
+    grid-row: 2 / 2;
+    background-color: blue;
+    height: 200px;
+
+}
+
+.contenedor2 {
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+    background-color: rgb(47, 47, 48);
+    height: 200px;
+}
+
+.contenedor3 {
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+    background-color: rgb(24, 174, 49);
+    height: 200px;
+}
+
+.contenedor4 {
+    background-color: rgb(180, 25, 28);
+    height: 200px;
+}
+
+.contenedor5 {
+
+    background-color: rgb(229, 219, 34);
+    height: 200px;
+}
+
+.contenedor6 {
+
+    background-color: rgb(164, 13, 219);
+    height: 200px;
 }
